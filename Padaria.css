@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* Navbar */
+.logo {
+    width: 60px !important;
+    height: auto !important;
+}
+
+#nav {
+    background: linear-gradient(90deg, rgb(190, 38, 38) 0%, rgba(248,193,19,1) 100%);
+    box-shadow: 2px 2px 5px #cdcdcd;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+#navbarNav ul li a {
+    color:#fff;
+    font-weight: bold;
+}
+
+#navbarNav ul li a:hover {
+    color: #000;
+    background: #fff;
+    border-radius: 5px;
+}
+
+/* Carrossel */
+.sectionCarrosel {
+    margin-top: 5px;
+}
+
+/* Imagens do carrossel */
+.img-carousel {
+    display: block;
+    margin: 0 auto;
+    width: auto; /* não força 100% */
+    max-width: 100%;
+    object-fit: cover;
+}
+
+/* Pão e Café grandes */
+.img-pao,
+.img-cafe {
+    height: 300px;
+}
+
+/* Pastel menor */
+.img-pastel {
+    height: 200px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .img-pao,
+    .img-cafe { height: 200px; }
+    .img-pastel { height: 150px; }
+}
+
+@media (max-width: 480px) {
+    .img-pao,
+    .img-cafe { height: 150px; }
+    .img-pastel { height: 100px; }
+}
+
+/* Seção Sobre */
+#quemSomos {
+    font-family: "Oswald", sans-serif;
+    margin-top: 100px;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+/* Produtos */
+#produtos {
+    margin: 40px 0 100px;
+}
+
+.main-title {
+    color:#000;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.destaque-texto {
+    color: #d2691e;
+    font-weight: bold;
+    font-size:20px;
+}
+
+.destaque {
+    color: #000;
+    font-size: 14px;
+    padding: 15px;
+}
+
+.icones {
+    color: #d2691e;
+    font-size: 41px;
+    padding-bottom: 10px;
+}
+
+/* Botão enviar */
+.bt-enviar {
+    width: 100%;
+}
+
+/* Rodapé */
+footer {
+    margin-top: 40px;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(248,193,19,1) 100%);
+    padding: 20px 0;
+}
+
+.logo_footer {
+    height: 80px;
+    padding: 10px;
+}
